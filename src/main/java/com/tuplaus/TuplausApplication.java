@@ -22,7 +22,7 @@ public class TuplausApplication {
 		
 		System.out.println("Syötä pelaajan id: ");
 		
-		int id = Scanner.nextInt();
+		Long id = Scanner.nextLong();
 		
 		game.setPlayerId(id);
 		

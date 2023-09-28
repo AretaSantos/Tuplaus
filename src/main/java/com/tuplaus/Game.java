@@ -15,14 +15,14 @@ public class Game {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int GameId;
+	private Long GameId;
 	
 	private String timestamp;
 	private int bet;
 	private String choice;
 	private int cardNumber;
 	private boolean win;
-	private int PlayerId;
+	private Long PlayerId;
 	private int balance;
 	private String playerName;
 	
@@ -67,11 +67,11 @@ public class Game {
 		this.win = winTotal;
 	}
 	
-	public int getPlayerId() {
+	public  Long getPlayerId() {
 		return PlayerId;
 	}
 
-	public void setPlayerId(int userId) {
+	public void setPlayerId(Long userId) {
 		PlayerId = userId;
 	}
 

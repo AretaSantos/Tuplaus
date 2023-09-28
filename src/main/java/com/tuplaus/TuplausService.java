@@ -45,7 +45,7 @@ public class TuplausService {
 			while (resultSet.next()) {
 				game.setBalance(resultSet.getInt("balance"));
 				game.setPlayerName(resultSet.getString("name"));
-				game.setPlayerId(resultSet.getInt("id"));
+				game.setPlayerId(resultSet.getLong("id"));
 
 				System.out.println("Pelaajan id: " + game.getPlayerId() + ", Nimi: " + game.getPlayerName() + ", Saldo: "
 						+ game.getBalance());
@@ -198,7 +198,7 @@ public class TuplausService {
 				insertStatement.setString(3, game.getChoice());
 				insertStatement.setInt(4, game.getCardNumber());
 				insertStatement.setBoolean(5, game.getWin());
-				insertStatement.setInt(6, game.getPlayerId());
+				insertStatement.setLong(6, game.getPlayerId());
 
 				insertStatement.executeUpdate();
 
