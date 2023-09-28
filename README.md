@@ -4,7 +4,7 @@
 
 <h1>Tuplaus</h1>
 
-<p>Tämä on Tuplauspeli, joka on tehty Spring boot frameworkia hyödyntäen. Ohjeet pelin käynnistykseen</p>
+<p>Tämä on Tuplauspeli, joka on tehty Spring boot frameworkia hyödyntäen. Ohjeet pelin käynnistykseen: </p>
 
 <h3>Asennus</h3>
 
@@ -51,7 +51,7 @@ Pelien aikaiset panokset, valinnat ja lopputulos tallentuu myös tietokantaan, j
 
 <p>Pelien aikaiset panokset, valinnat ja lopputulos tallentuu myös tietokantaan, ja niitä voi tarkastella kunnes pelin sammuttaa ja myös tietokanta sammuu. Valitse haluamasi pelaaja id tunnisteen avulla (valmiina idt 1 ja 2), syötä panos ja arvaa seuraava kortti</p>
 
-<h2>Peli-clientin ja pelimoottorin cälinen http api</h2>
+<h2>Peli-clientin ja pelimoottorin välinen http api</h2>
 
 <p>Peli on rakennettu Spring boot frameworkia hyödyntäen. Peliclientin ja pelimottorin väinen yhetys toimisi contoller luokan avulla, jossa contoller ottaa clientilta vastaan erilaisia urlin enpointeja 
 ja suorittaa niiden pohjalta Service luokassa totetutettua pelilogiikkaa. Tässä versiossa clientia ei ole, vaan peliä pelataan consolin kautta, joten contoller luokka ei ole käytössä. Clientin voisi tuoteuttaa 
@@ -65,7 +65,7 @@ esim html templeteilla projektin sisällä tai erillisellä react sovelluksella.
   <li>Testit</li>
   <li>strong> Autentikointi ja sisäänkirjaus</li>
   <li>Pelaajan vaihto kesken pelin</li>
-  <li>Frontendin luminen html templateja tai erillistä react sovellusta käyttäen.</li>
+  <li>Frontendin luominen html templateja tai erillistä react sovellusta käyttäen.</li>
 </ul>
 
 </body>
