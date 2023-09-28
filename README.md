@@ -63,7 +63,7 @@ esim html templeteilla projektin sisällä tai erillisellä react sovelluksella.
 
 <ul>
   <li>Testit</li>
-  <li>strong> Autentikointi ja sisäänkirjaus</li>
+  <li>Autentikointi ja sisäänkirjaus</li>
   <li>Pelaajan vaihto kesken pelin</li>
   <li>Frontendin luominen html templateja tai erillistä react sovellusta käyttäen.</li>
 </ul>
